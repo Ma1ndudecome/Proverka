@@ -42,6 +42,10 @@ body, html {
     z-index: 1;
     background-image: url(Backlite1.jpg);
     overflow: hidden;
+    animation-name: forAll;
+    animation-duration: 1.5s;
+    animation-timing-function: ease;
+    animation-duration: alternate-reverse;
 }
 .border-tovar:hover {
     background-image: url(Backlite1.jpg);
@@ -78,6 +82,10 @@ body, html {
     background-image: url(Ricarback.jpg);
     background-size: cover;
     transition: 0.8s;
+    animation-name: forAll;
+    animation-duration: 2s;
+    animation-timing-function: ease;
+    animation-duration: alternate-reverse;
 }
 .border-tovar1:hover .image{
     opacity: 0;
@@ -264,6 +272,10 @@ body, html {
     background-image: url(backpaladin.jpg);
     background-size: cover;
     transition: 0.5s;
+    animation-name: forAll;
+    animation-duration: 2.5s;
+    animation-timing-function: ease;
+    animation-duration: alternate-reverse;
 }
 .border-tovar2:hover .image{
     opacity: 0;
@@ -302,6 +314,10 @@ body, html {
     background-position: 0px;
     background-repeat: no-repeat;
     transition: 0.8s;
+    animation-name: forAll;
+    animation-duration: 2.5s;
+    animation-timing-function: ease;
+    animation-duration: alternate-reverse;
 }
 .border-tovar3:hover .image{
     opacity: 0;
@@ -348,6 +364,10 @@ body, html {
     background-position: 0px;
     background-repeat: no-repeat;
     transition: 0.8s;
+    animation-name: forAll;
+    animation-duration: 3s;
+    animation-timing-function: ease;
+    animation-duration: alternate-reverse;
 }
 .border-tovar4:hover .image{
     opacity: 0;
@@ -386,6 +406,10 @@ body, html {
     background-position: 0px;
     background-repeat: no-repeat;
     transition: 0.8s;
+    animation-name: forAll;
+    animation-duration: 3.3s;
+    animation-timing-function: ease;
+    animation-duration: alternate-reverse;
 }
 .border-tovar5:hover .image{
     opacity: 0;
@@ -424,6 +448,10 @@ body, html {
     background-position: 0px;
     background-repeat: no-repeat;
     transition: 0.8s;
+    animation-name: forAll;
+    animation-duration: 3.6s;
+    animation-timing-function: ease;
+    animation-duration: alternate-reverse;
 }
 .border-tovar6:hover .image{
     opacity: 0;
@@ -462,6 +490,10 @@ body, html {
     background-position: 0px;
     background-repeat: no-repeat;
     transition: 0.8s;
+    animation-name: forAll;
+    animation-duration: 3.9s;
+    animation-timing-function: ease;
+    animation-duration: alternate-reverse;
 }
 .border-tovar8:hover .image{
     opacity: 0;
@@ -846,6 +878,61 @@ body, html {
     top:1%;
     cursor: pointer;
 }
+@keyframes forAll{
+    0% {
+        opacity: 0;
+        transform: translateY(-40px);
+      }
+      100% {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+@keyframes fortelef{
+    0% {
+         opacity: 0;
+        transform: translateY(-40px);
+        }
+        100% {
+         opacity: 1;
+        transform: translateY(0);
+        transform: scale(0.9);
+        }
+    }
+    @keyframes fortelef1{
+        0% {
+             opacity: 0;
+            transform: translateY(-40px);
+            }
+            100% {
+             opacity: 1;
+            transform: translateY(0);
+            transform: scale(0.8);
+            }
+        }
+        @keyframes fortelef2{
+            0% {
+                 opacity: 0;
+                transform: translateY(-40px);
+                }
+                100% {
+                 opacity: 1;
+                transform: translateY(0);
+                transform: scale(0.73);
+                }
+            }
+            @keyframes fortelef3{
+                0% {
+                     opacity: 0;
+                    transform: translateY(-40px);
+                    }
+                    100% {
+                     opacity: 1;
+                    transform: translateY(0);
+                    transform: scale(0.7);
+                    }
+                }
+
 @keyframes iconka{
     0% {
         transform: translateY(0px);
@@ -924,6 +1011,10 @@ body, html {
     }
     .border-tovar, .border-tovar1, .border-tovar2, .border-tovar3, .border-tovar4, .border-tovar5, .border-tovar6, .border-tovar7, .border-tovar8, .border-tovar9, .border-tovar10, .border-tovar11, .border-tovar12, .border-tovar13, .border-tovar14, .border-tovar15, .border-tovar16 {
         transform: scale(0.9);
+        animation-name: fortelef;
+        animation-duration: 1.5s;
+        animation-timing-function: ease;
+        animation-duration: alternate-reverse;
     }
     ::-webkit-scrollbar{
         width: 3px;
@@ -938,6 +1029,10 @@ body, html {
     }
     .border-tovar, .border-tovar1, .border-tovar2, .border-tovar3, .border-tovar4, .border-tovar5, .border-tovar6, .border-tovar7, .border-tovar8, .border-tovar9, .border-tovar10, .border-tovar11, .border-tovar12, .border-tovar13, .border-tovar14, .border-tovar15, .border-tovar16 {
         transform: scale(0.8);
+        animation-name: fortelef1;
+        animation-duration: 1.5s;
+        animation-timing-function: ease;
+        animation-duration: alternate-reverse;
     }
     ::-webkit-scrollbar{
         width: 2px;
@@ -952,6 +1047,10 @@ body, html {
     }
     .border-tovar, .border-tovar1, .border-tovar2, .border-tovar3, .border-tovar4, .border-tovar5, .border-tovar6, .border-tovar7, .border-tovar8, .border-tovar9, .border-tovar10, .border-tovar11, .border-tovar12, .border-tovar13, .border-tovar14, .border-tovar15, .border-tovar16 {
         transform: scale(0.73);
+        animation-name: fortelef2;
+        animation-duration: 1.5s;
+        animation-timing-function: ease;
+        animation-duration: alternate-reverse;
     }
 }
 @media (max-width:800px){
@@ -961,6 +1060,10 @@ body, html {
         grid-template-rows: repeat(7, 420px);
         margin-right:-1em;
         margin-left: 1em;
+    }
+    .border-tovar, .border-tovar1, .border-tovar2, .border-tovar3, .border-tovar4, .border-tovar5, .border-tovar6, .border-tovar7, .border-tovar8, .border-tovar9, .border-tovar10, .border-tovar11, .border-tovar12, .border-tovar13, .border-tovar14, .border-tovar15, .border-tovar16 {
+        
+        animation-name: fsadsad
     }
 }
 @media (max-width:568px){
@@ -973,6 +1076,7 @@ body, html {
     }
     .border-tovar, .border-tovar1, .border-tovar2, .border-tovar3, .border-tovar4, .border-tovar5, .border-tovar6, .border-tovar7, .border-tovar8, .border-tovar9, .border-tovar10, .border-tovar11, .border-tovar12, .border-tovar13, .border-tovar14, .border-tovar15, .border-tovar16 {
         transform: scale(0.7);
+        animation-name: f
     }
 }
 @media (max-width:544px){
@@ -984,6 +1088,8 @@ body, html {
     }
     .border-tovar, .border-tovar1, .border-tovar2, .border-tovar3, .border-tovar4, .border-tovar5, .border-tovar6, .border-tovar7, .border-tovar8, .border-tovar9, .border-tovar10, .border-tovar11, .border-tovar12, .border-tovar13, .border-tovar14, .border-tovar15, .border-tovar16 {
         transform: scale(0.7);
+        animation-name: ffortelef4;
+      
     }
 }
 @media (max-width:510px){
@@ -1007,6 +1113,8 @@ body, html {
     } 
     .border-tovar, .border-tovar1, .border-tovar2, .border-tovar3, .border-tovar4, .border-tovar5, .border-tovar6, .border-tovar7, .border-tovar8, .border-tovar9, .border-tovar10, .border-tovar11, .border-tovar12, .border-tovar13, .border-tovar14, .border-tovar15, .border-tovar16 {
         transform: scale(0.88);
+        animation-name: fortelef4;
+        
         
     }  
 }
