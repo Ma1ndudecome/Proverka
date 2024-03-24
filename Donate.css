@@ -14,6 +14,15 @@ body, html {
     overflow-x: hidden;
     
 }
+::-webkit-scrollbar{
+    width: 5px;
+}
+::-webkit-scrollbar-track{
+    background-color: rgb(90, 89, 89);
+}
+::-webkit-scrollbar-thumb{
+    background-color: gray
+}
 .Grid {
     display: grid;
     grid-template-columns: repeat(4, 1fr); 
@@ -902,6 +911,9 @@ body, html {
      .border-tovar, .border-tovar1, .border-tovar2, .border-tovar3, .border-tovar4, .border-tovar5, .border-tovar6, .border-tovar7, .border-tovar8, .border-tovar9, .border-tovar10, .border-tovar11, .border-tovar12, .border-tovar13, .border-tovar14, .border-tovar15, .border-tovar16 {
         transform: scale(1);
     }  
+    ::-webkit-scrollbar{
+        width: 3px;
+    }
 }
 @media (max-width:1024px) {
     .Grid{
@@ -913,6 +925,9 @@ body, html {
     .border-tovar, .border-tovar1, .border-tovar2, .border-tovar3, .border-tovar4, .border-tovar5, .border-tovar6, .border-tovar7, .border-tovar8, .border-tovar9, .border-tovar10, .border-tovar11, .border-tovar12, .border-tovar13, .border-tovar14, .border-tovar15, .border-tovar16 {
         transform: scale(0.9);
     }
+    ::-webkit-scrollbar{
+        width: 3px;
+    }
 }
 @media (max-width:968px){
     .Grid {
@@ -923,6 +938,9 @@ body, html {
     }
     .border-tovar, .border-tovar1, .border-tovar2, .border-tovar3, .border-tovar4, .border-tovar5, .border-tovar6, .border-tovar7, .border-tovar8, .border-tovar9, .border-tovar10, .border-tovar11, .border-tovar12, .border-tovar13, .border-tovar14, .border-tovar15, .border-tovar16 {
         transform: scale(0.8);
+    }
+    ::-webkit-scrollbar{
+        width: 2px;
     }
 }
  @media (max-width:900px){
