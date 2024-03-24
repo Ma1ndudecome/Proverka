@@ -1,0 +1,1033 @@
+@import url('https://fonts.googleapis.com/css2?family=Kode+Mono&family=Madimi+One&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Protest+Riot&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Rubik+Glitch+Pop&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kode+Mono&family=Madimi+One&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Protest+Riot&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Rubik+Glitch+Pop&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kode+Mono&family=Madimi+One&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Protest+Riot&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Rubik+Glitch+Pop&display=swap');
+
+body, html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background: url(backdonate5.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    overflow-x: hidden;
+    
+}
+.Grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); 
+    grid-template-rows: repeat(3, 480px);
+    margin-right: 8em;
+    margin-left: 10em;
+    margin-top: 1em;
+}
+.border-tovar{
+    border: 2px solid #f5f5f5;
+    border-radius: 20px;
+    height: 420px;
+    width: 350px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition: 0.8s;
+    z-index: 1;
+    background-image: url(Backlite1.jpg);
+    overflow: hidden;
+}
+.border-tovar:hover {
+    background-image: url(Backlite1.jpg);
+    background-size: cover;
+    background-position: -60px;
+    background-repeat: no-repeat; 
+    transition: 0.8s;
+    border: 2px solid #35e908;
+}
+.border-tovar:hover .image {
+    opacity: 0;
+    transition: 0.8s;
+}
+.border-tovar:hover .add-button{
+    opacity: 1;
+    position: relative;
+    top:155px;
+    left:110px;
+    z-index: 2;
+    font-size:35px;
+    color:rgb(255, 255, 255);
+    background-color: red;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+    z-index: 1;
+}
+.border-tovar1{ 
+    border: 2px solid #f5f5f5;
+    border-radius: 20px;
+    height: 420px;
+    width: 350px;
+    overflow: hidden;
+    background-image: url(Ricarback.jpg);
+    background-size: cover;
+    transition: 0.8s;
+}
+.border-tovar1:hover .image{
+    opacity: 0;
+    transition: 0.8s;
+}
+.border-tovar1:hover .add-button{
+    opacity: 1;
+    position: relative;
+    top:155px;
+    left:110px;
+    z-index: 2;
+    font-size:35px;
+    color:rgb(255, 255, 255);
+    background-color: red;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+    z-index: 1;
+}
+.border-tovar1:hover{
+    background-image: url(Ricarback.jpg);
+    background-size: cover;
+    background-position: -60px;
+    transition: 0.8s;
+    border: 2px solid #35e908;
+}
+.add-button {
+    opacity: 0;
+    position: relative;
+    top:170px;
+    left:110px;
+    z-index: 2;
+    font-size:23px;
+    color:rgb(255, 255, 255);
+    background-color: red;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+    font-size:35px;
+    transition: 0.5s;
+    z-index: 1;
+}
+.Lite{
+    position: relative;
+    background-color: red;
+    border-radius: 20px;
+    text-align: center;
+    color:white;
+    top: 45px;
+    left: 22px;
+    width: 80px;
+    height: 30px;
+    font-family: "Roboto Condensed", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    cursor: default;
+    transition: 0.5s;
+}
+.Lite2{
+    position: relative;
+    background-color: red;
+    border-radius: 20px;
+    text-align: center;
+    color:white;
+    top: 45px;
+    left: 22px;
+    width: 145px;
+    height: 30px;
+    font-family: "Roboto Condensed", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    cursor: default;
+    transition: 0.5s;
+}
+.Lite9 {
+    position: relative;
+    background-color: red;
+    border-radius: 20px;
+    text-align: center;
+    color: white;
+    top: 262px;
+    left: 22px;
+    width: 75px;
+    height: 30px;
+    font-family: "Roboto Condensed", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    cursor: default;
+    transition: 0.5s;
+}
+.Lite10{
+    position: relative;
+    background-color: red;
+    border-radius: 20px;
+    text-align: center;
+    color: white;
+    top: 262px;
+    left: 22px;
+    width: 150px;
+    height: 30px;
+    font-family: "Roboto Condensed", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    cursor: default;
+    transition: 0.5s;
+}
+.Price{
+    position: relative;
+    left:13px;
+    font-size: 25px;
+    color:white;
+    top: 18px;
+    font-family: "Open Sans", sans-serif;
+    font-style: normal;
+    cursor: default;
+    transition: 0.5s;
+    width: 80px;
+    height: 30px;
+}
+.Skidka1{
+    position: relative;
+    left:270px;
+    font-size: 22px;
+    color:white;
+    background-color: red;
+    border-radius: 20px;
+    width: 65px;
+    text-align: center;
+    top:225px;
+    font-family: "Open Sans", sans-serif;
+    font-style: normal;
+    cursor: default;
+
+}
+.Price1{
+    position: relative;
+    left:13px;
+    font-size: 25px;
+    color:rgb(255, 255, 255);
+    top: 235px;
+    font-family: "Open Sans", sans-serif;
+    font-style: normal;
+    cursor: default;
+    transition: 0.5s;
+    width: 80px;
+    height: 30px;
+}
+.Price2{
+    position: relative;
+    left:13px;
+    font-size: 25px;
+    color:rgb(25, 0, 247);
+    top: 235px;
+    font-family: "Open Sans", sans-serif;
+    font-style: normal;
+    cursor: default;
+    transition: 0.5s;
+    width: 80px;
+    height: 30px;
+}
+
+.Skidka{
+    position: relative;
+    left:270px;
+    font-size: 22px;
+    color:white;
+    background-color: red;
+    border-radius: 20px;
+    width: 65px;
+    text-align: center;
+    top:10px;
+    font-family: "Open Sans", sans-serif;
+    font-style: normal;
+    cursor: default;
+}
+.border-tovar2{ 
+    border: 2px solid #f5f5f5;
+    border-radius: 20px;
+    height: 420px;
+    width: 350px;
+    transition: 0.8s;
+    z-index: 1;
+    overflow: hidden;
+    background-image: url(backpaladin.jpg);
+    background-size: cover;
+    transition: 0.5s;
+}
+.border-tovar2:hover .image{
+    opacity: 0;
+    transition: 0.8s;
+}
+.border-tovar2:hover .add-button{
+    opacity: 1;
+    position: relative;
+    top:155px;
+    left:110px;
+    z-index: 2;
+    font-size:35px;
+    color:rgb(255, 255, 255);
+    background-color: red;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+    z-index: 1;
+}
+.border-tovar2:hover{
+    background-image: url(backpaladin.jpg);
+    background-size: cover;
+    background-position: -60px;
+    transition: 0.8s;
+    border: 2px solid #35e908;
+}
+.border-tovar3{ 
+    border: 2px solid #f5f5f5;
+    border-radius: 20px;
+    height: 420px;
+    width: 350px;
+    transition: 0.8s;
+    z-index: 1;
+    background-image: url(backDragon.jpg);
+    background-size: cover;
+    background-position: 0px;
+    background-repeat: no-repeat;
+    transition: 0.8s;
+}
+.border-tovar3:hover .image{
+    opacity: 0;
+    transition: 0.8s;
+}
+.border-tovar3:hover .add-button{
+    opacity: 1;
+    position: relative;
+    top:155px;
+    left:110px;
+    z-index: 2;
+    font-size:35px;
+    color:rgb(255, 255, 255);
+    background-color: red;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+    z-index: 1;
+}
+.border-tovar3:hover{
+    background-image: url(backDragon.jpg);
+    background-size: cover;
+    background-position: -50px;
+    transition: 0.8s;
+    border: 2px solid #35e908;
+}
+.border-tovar4{ 
+    border: 2px solid #f5f5f5;
+    border-radius: 20px;
+    height: 420px;
+    width: 350px;
+    transition: 0.8s;
+    z-index: 1;
+}
+.border-tovar4{ 
+    border: 2px solid #f5f5f5;
+    border-radius: 20px;
+    height: 420px;
+    width: 350px;
+    transition: 0.8s;
+    z-index: 1;
+    background-image: url(backlegend2.webp);
+    background-size: cover;
+    background-position: 0px;
+    background-repeat: no-repeat;
+    transition: 0.8s;
+}
+.border-tovar4:hover .image{
+    opacity: 0;
+    transition: 0.8s;
+}
+.border-tovar4:hover .add-button{
+    opacity: 1;
+    position: relative;
+    top:155px;
+    left:110px;
+    z-index: 2;
+    font-size:35px;
+    color:rgb(255, 255, 255);
+    background-color: red;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+    z-index: 1;
+}
+.border-tovar4:hover{
+    background-image: url(backlegend2.webp);
+    background-size: cover;
+    background-position: -60px;
+    transition: 0.8s;
+    border: 2px solid rgb(21, 255, 0);
+}
+.border-tovar5{
+    border: 2px solid #f5f5f5;
+    border-radius: 20px;
+    height: 420px;
+    width: 350px;
+    transition: 0.8s;
+    z-index: 1;
+    background-image: url(Imperatorback.jpg);
+    background-size: cover;
+    background-position: 0px;
+    background-repeat: no-repeat;
+    transition: 0.8s;
+}
+.border-tovar5:hover .image{
+    opacity: 0;
+    transition: 0.8s;
+}
+.border-tovar5:hover .add-button{
+    opacity: 1;
+    position: relative;
+    top:155px;
+    left:110px;
+    z-index: 2;
+    font-size:35px;
+    color:rgb(255, 255, 255);
+    background-color: red;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+    z-index: 1;
+}
+.border-tovar5:hover{
+    background-image: url(Imperatorback.jpg);
+    background-size: cover;
+    background-position: -60px;
+    transition: 0.8s;
+    border: 2px solid #35e908;
+}
+.border-tovar6{ 
+    border: 2px solid #f5f5f5;
+    border-radius: 20px;
+    height: 420px;
+    width: 350px;
+    transition: 0.8s;
+    z-index: 1;
+    background-image: url(Rolecks.jpg);
+    background-size: cover;
+    background-position: 0px;
+    background-repeat: no-repeat;
+    transition: 0.8s;
+}
+.border-tovar6:hover .image{
+    opacity: 0;
+    transition: 0.8s;
+}
+.border-tovar6:hover .add-button{
+    opacity: 1;
+    position: relative;
+    top:155px;
+    left:110px;
+    z-index: 2;
+    font-size:35px;
+    color:rgb(255, 255, 255);
+    background-color: red;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+    z-index: 1;
+}
+.border-tovar6:hover{
+    background-image: url(Rolecks.jpg);
+    background-size: cover;
+    background-position: -60px;
+    transition: 0.8s;
+    border: 2px solid #35e908;
+}
+.border-tovar8{ 
+    border: 2px solid #f5f5f5;
+    border-radius: 20px;
+    height: 420px;
+    width: 350px;
+    transition: 0.8s;
+    z-index: 1;
+    background-image: url(Toinerback1.jpg);
+    background-size: cover;
+    background-position: 0px;
+    background-repeat: no-repeat;
+    transition: 0.8s;
+}
+.border-tovar8:hover .image{
+    opacity: 0;
+    transition: 0.8s;
+}
+.border-tovar8:hover .add-button{
+    opacity: 1;
+    position: relative;
+    top:155px;
+    left:110px;
+    z-index: 2;
+    font-size:35px;
+    color:rgb(255, 255, 255);
+    background-color: red;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+    z-index: 1;
+}
+.border-tovar8:hover{
+    background-image: url(Toinerback1.jpg);
+    background-size: cover;
+    background-position: -60px;
+    transition: 0.8s;
+    border: 2px solid #35e908;
+}
+.border-tovar9{ 
+    border: 2px solid #f5f5f5;
+    border-radius: 20px;
+    height: 420px;
+    width: 350px;
+    transition: 0.8s;
+    z-index: 1;
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition: 0.8s;
+    background-image: url(backkey9.jpg);
+}
+.border-tovar9:hover .image{
+    opacity: 0;
+    transition: 0.8s;
+}
+.border-tovar9:hover .add-button{
+    opacity: 1;
+    position: relative;
+    top:155px;
+    left:110px;
+    z-index: 2;
+    font-size:35px;
+    color:rgb(255, 255, 255);
+    background-color: red;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+    z-index: 1;
+}
+.border-tovar9:hover{
+    background-image: url(backkey9.jpg);
+    background-size: cover;
+    background-position-y: -60px;
+    transition: 0.8s;
+    border: 2px solid #35e908;
+}
+.border-tovar10{ 
+    border: 2px solid #f5f5f5;
+    border-radius: 20px;
+    height: 420px;
+    width: 350px;
+    transition: 0.8s;
+    z-index: 1;
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition: 0.8s;
+    background-position-y: 0px;
+    background-image: url(backkey8.jpg);
+}
+.border-tovar10:hover .image{
+    opacity: 0;
+    transition: 0.8s;
+}
+.border-tovar10:hover .add-button{
+    opacity: 1;
+    position: relative;
+    top:155px;
+    left:110px;
+    z-index: 2;
+    font-size:35px;
+    color:rgb(255, 255, 255);
+    background-color: red;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+    z-index: 1;
+}
+.border-tovar10:hover{
+    background-image: url(backkey8.jpg);
+    background-size: cover;
+    background-position-y: -60px;
+    border: 2px solid #35e908;
+}
+.border-tovar11{ 
+    border: 2px solid #f5f5f5;
+    border-radius: 20px;
+    height: 420px;
+    width: 350px;
+    transition: 0.8s;
+    z-index: 1;
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition: 0.8s;
+    background-image: url(backkey7.jpg);
+}
+.border-tovar11:hover .image{
+    opacity: 0;
+    transition: 0.8s;
+}
+.border-tovar11:hover .add-button{
+    opacity: 1;
+    position: relative;
+    top:155px;
+    left:110px;
+    z-index: 2;
+    font-size:35px;
+    color:rgb(255, 255, 255);
+    background-color: red;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+    z-index: 1;
+}
+.border-tovar11:hover{
+    background-image: url(backkey7.jpg);
+    background-size: cover;
+    background-position-y: -80px;
+    border: 2px solid #35e908;
+}
+.border-tovar12{ 
+    border: 2px solid #f5f5f5;
+    border-radius: 20px;
+    height: 420px;
+    width: 350px;
+    transition: 0.8s;
+    z-index: 1;
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition: 0.8s;
+    background-image: url(150coins.jpg);
+}
+.border-tovar12:hover .image{
+    opacity: 0;
+    transition: 0.8s;
+}
+.border-tovar12:hover .add-button{
+    opacity: 1;
+    position: relative;
+    top:155px;
+    left:110px;
+    z-index: 2;
+    font-size:35px;
+    color:rgb(255, 255, 255);
+    background-color: red;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+    z-index: 1;
+}
+.border-tovar12:hover{
+    background-image: url(150coins.jpg);
+    background-size: cover;
+    background-position-y: -50px;
+    border: 2px solid #35e908;
+}
+.border-tovar13{ 
+    border: 2px solid #f5f5f5;
+    border-radius: 20px;
+    height: 420px;
+    width: 350px;
+    transition: 0.8s;
+    z-index: 1;
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition: 0.8s;
+    background-image: url(unban.jpg);
+    
+}
+.border-tovar13:hover .image{
+    opacity: 0;
+    transition: 0.8s;
+}
+.border-tovar13:hover .add-button{
+    opacity: 1;
+    position: relative;
+    top:155px;
+    left:110px;
+    z-index: 2;
+    font-size:35px;
+    color:rgb(255, 255, 255);
+    background-color: red;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+    z-index: 1;
+}
+.border-tovar13:hover{
+    background-image: url(unban.jpg);
+    background-size: cover;
+    background-position-y: -40px;
+    border: 2px solid #35e908;
+}
+.border-tovar14{ 
+    border: 2px solid #f5f5f5;
+    border-radius: 20px;
+    height: 420px;
+    width: 350px;
+    transition: 0.8s;
+    z-index: 1;
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition: 0.8s;
+    background-image: url(unmute.jpg);
+}
+.border-tovar14:hover .image{
+    opacity: 0;
+    transition: 0.8s;
+}
+.border-tovar14:hover .add-button{
+    opacity: 1;
+    position: relative;
+    top:155px;
+    left:110px;
+    z-index: 2;
+    font-size:35px;
+    color:rgb(255, 255, 255);
+    background-color: red;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+    z-index: 1;
+}
+.border-tovar14:hover{
+    background-image: url(unmute1.jpg);
+    background-size: cover;
+    background-position-y: -40px;
+    border: 2px solid #35e908;
+}
+.image{
+    position: relative;
+    top:52px;
+    left:15%;
+    width: 70%;
+    height: 50%;
+    transition: 0.8s;
+}
+
+.Lite1{
+    position: relative;
+    background-color: red;
+    border-radius: 20px;
+    text-align: center;
+    color:white;
+    top: 45px;
+    left: 22px;
+    width: 100px;
+    height: 30px;
+    font-family: "Roboto Condensed", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    cursor: default;
+    transition: 0.5s;
+}
+.Lite8{
+    background-color: red;
+    border-radius: 20px;
+    text-align: center;
+    width: 220px;
+    height: 30px;
+    font-family: "Roboto Condensed", sans-serif;
+    font-optical-sizing: auto;
+    color:white;
+    position: relative;
+    top: 45px;
+    left: 22px;
+    cursor: default;
+}
+.border-tovar15{ 
+    border: 2px solid #f5f5f5;
+    border-radius: 20px;
+    height: 420px;
+    width: 350px;
+    transition: 0.8s;
+    z-index: 1;
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition: 0.8s;
+    background-image: url(100coins.jpg);
+}
+.border-tovar15:hover .image{
+    opacity: 0;
+    transition: 0.8s;
+}
+.border-tovar15:hover .add-button{
+    opacity: 1;
+    position: relative;
+    top:155px;
+    left:110px;
+    z-index: 2;
+    font-size:35px;
+    color:rgb(255, 255, 255);
+    background-color: red;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+    z-index: 1;
+}
+.border-tovar15:hover{
+    background-image: url(100coins.jpg);
+    background-size: cover;
+    background-position-y: -40px;
+    border: 2px solid #35e908;
+}
+.border-tovar16{ 
+    border: 2px solid #f5f5f5;
+    border-radius: 20px;
+    height: 420px;
+    width: 350px;
+    transition: 0.8s;
+    z-index: 1;
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition: 0.8s;
+    background-image: url(500coins.jpg);
+}
+.border-tovar16:hover .image{
+    opacity: 0;
+    transition: 0.8s;
+}
+.border-tovar16:hover .add-button{
+    opacity: 1;
+    position: relative;
+    top:155px;
+    left:110px;
+    z-index: 2;
+    font-size:35px;
+    color:rgb(255, 255, 255);
+    background-color: red;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+    z-index: 1;
+}
+.border-tovar16:hover{
+    background-image: url(500coins.jpg);
+    background-size: cover;
+    background-position-y: -40px;
+    border: 2px solid #35e908;
+}
+.Lite11{
+    position: relative;
+    background-color: red;
+    border-radius: 20px;
+    text-align: center;
+    color: white;
+    top: 262px;
+    left: 22px;
+    width: 110px;
+    height: 30px;
+    font-family: "Roboto Condensed", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    cursor: default;
+    transition: 0.5s;
+}
+.iconka{
+    position: relative;
+    animation-name: iconka;
+    animation-duration: 1.4s;
+    animation-timing-function: ease;
+    animation-iteration-count: infinite;
+    animation-duration: alternate-reverse;
+    z-index: 2;
+    left:1%;
+    top:1%;
+    cursor: pointer;
+}
+@keyframes iconka{
+    0% {
+        transform: translateY(0px);
+    }
+    50%{
+        transform: translateY(5px);
+        }        
+  
+    100% {
+        transform:translateY(0px);
+    }
+}
+@media (max-width:1820px){
+    .Grid{
+        margin-left: 7em;
+        margin-right: -1em;
+    }
+}
+@media (max-width:1670px){
+    .Grid{
+        margin-top: -5em;
+        margin-left: 2em;
+        margin-right: -2em;
+        transform: scale(0.9);
+    }
+    html,body{
+        background-size: cover;
+    }
+}
+@media (max-width:1580px){
+    .Grid{
+        margin-top: -4em;
+        margin-left: -1em;
+        margin-right: -3em;
+        grid-template-rows: repeat(3, 430px);
+    }
+ 
+      .border-tovar, .border-tovar1, .border-tovar2, .border-tovar3, .border-tovar4, .border-tovar5, .border-tovar6, .border-tovar7, .border-tovar8, .border-tovar9, .border-tovar10, .border-tovar11, .border-tovar12, .border-tovar13, .border-tovar14, .border-tovar15, .border-tovar16 {
+        transform: scale(0.9);
+    } 
+
+}
+@media (max-width:1360px){
+    .Grid{
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: repeat(3, 400px);
+        margin-left: -2em;
+        margin-right:1em;
+        margin-bottom: -10em;
+    } 
+    .border-tovar, .border-tovar1, .border-tovar2, .border-tovar3, .border-tovar4, .border-tovar5, .border-tovar6, .border-tovar7, .border-tovar8, .border-tovar9, .border-tovar10, .border-tovar11, .border-tovar12, .border-tovar13, .border-tovar14, .border-tovar15, .border-tovar16 {
+        transform: scale(0.8);
+    }  
+}
+@media (max-width:1280px){
+    .Grid{
+        grid-template-columns: repeat(3, 1fr);
+        margin-left: 3em;
+        grid-template-rows: repeat(4, 480px);
+        margin-bottom: -5em;
+
+    }
+     .border-tovar, .border-tovar1, .border-tovar2, .border-tovar3, .border-tovar4, .border-tovar5, .border-tovar6, .border-tovar7, .border-tovar8, .border-tovar9, .border-tovar10, .border-tovar11, .border-tovar12, .border-tovar13, .border-tovar14, .border-tovar15, .border-tovar16 {
+        transform: scale(1);
+    }  
+}
+@media (max-width:1024px) {
+    .Grid{
+        margin-left:-2em;
+        grid-template-rows: repeat(4, 430px);
+        margin-bottom: -5em;
+
+    }
+    .border-tovar, .border-tovar1, .border-tovar2, .border-tovar3, .border-tovar4, .border-tovar5, .border-tovar6, .border-tovar7, .border-tovar8, .border-tovar9, .border-tovar10, .border-tovar11, .border-tovar12, .border-tovar13, .border-tovar14, .border-tovar15, .border-tovar16 {
+        transform: scale(0.9);
+    }
+}
+@media (max-width:968px){
+    .Grid {
+        display: grid;
+        grid-template-columns: repeat(3, 20em); 
+        grid-template-rows: repeat(5, 420px);
+        margin-left: -1em;
+    }
+    .border-tovar, .border-tovar1, .border-tovar2, .border-tovar3, .border-tovar4, .border-tovar5, .border-tovar6, .border-tovar7, .border-tovar8, .border-tovar9, .border-tovar10, .border-tovar11, .border-tovar12, .border-tovar13, .border-tovar14, .border-tovar15, .border-tovar16 {
+        transform: scale(0.8);
+    }
+}
+ @media (max-width:900px){
+    .Grid {
+        display: grid;
+        grid-template-columns: repeat(3, 18em); 
+        grid-template-rows: repeat(5, 380px);
+        margin-left: -2em;
+    }
+    .border-tovar, .border-tovar1, .border-tovar2, .border-tovar3, .border-tovar4, .border-tovar5, .border-tovar6, .border-tovar7, .border-tovar8, .border-tovar9, .border-tovar10, .border-tovar11, .border-tovar12, .border-tovar13, .border-tovar14, .border-tovar15, .border-tovar16 {
+        transform: scale(0.73);
+    }
+}
+@media (max-width:800px){
+    .Grid {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr); 
+        grid-template-rows: repeat(7, 420px);
+        margin-right:-1em;
+        margin-left: 1em;
+    }
+}
+@media (max-width:568px){
+    .Grid{
+        display: grid;
+        grid-template-columns: repeat(2, 20em); 
+        grid-template-rows: repeat(7, 340px);
+        margin-right:20em;
+        margin-left: -2em;
+    }
+    .border-tovar, .border-tovar1, .border-tovar2, .border-tovar3, .border-tovar4, .border-tovar5, .border-tovar6, .border-tovar7, .border-tovar8, .border-tovar9, .border-tovar10, .border-tovar11, .border-tovar12, .border-tovar13, .border-tovar14, .border-tovar15, .border-tovar16 {
+        transform: scale(0.7);
+    }
+}
+@media (max-width:544px){
+    .Grid{
+        grid-template-columns: repeat(2,17em); 
+        grid-template-rows: repeat(7, 340px);
+        
+        margin-left: -1em;
+    }
+    .border-tovar, .border-tovar1, .border-tovar2, .border-tovar3, .border-tovar4, .border-tovar5, .border-tovar6, .border-tovar7, .border-tovar8, .border-tovar9, .border-tovar10, .border-tovar11, .border-tovar12, .border-tovar13, .border-tovar14, .border-tovar15, .border-tovar16 {
+        transform: scale(0.7);
+    }
+}
+@media (max-width:510px){
+    .Grid{
+        grid-template-columns: repeat(2,17em); 
+        grid-template-rows: repeat(7, 340px);
+        
+        margin-left: -3em;
+    }
+    .border-tovar, .border-tovar1, .border-tovar2, .border-tovar3, .border-tovar4, .border-tovar5, .border-tovar6, .border-tovar7, .border-tovar8, .border-tovar9, .border-tovar10, .border-tovar11, .border-tovar12, .border-tovar13, .border-tovar14, .border-tovar15, .border-tovar16 {
+        transform: scale(0.7);
+    }
+}
+@media(max-width:480px){
+    .Grid{
+        grid-template-columns: repeat(1, 1fr);
+        margin-left: 5em;
+        margin-top: -15em; 
+        grid-template-rows: repeat(14, 440px);
+        margin-bottom: -20em;    
+    } 
+    .border-tovar, .border-tovar1, .border-tovar2, .border-tovar3, .border-tovar4, .border-tovar5, .border-tovar6, .border-tovar7, .border-tovar8, .border-tovar9, .border-tovar10, .border-tovar11, .border-tovar12, .border-tovar13, .border-tovar14, .border-tovar15, .border-tovar16 {
+        transform: scale(0.88);
+        
+    }  
+}
+@media(max-width:431px){
+    .Grid{
+        grid-template-columns: repeat(1, 1fr);
+        margin-left: 3em;
+        margin-top: -15em; 
+        grid-template-rows: repeat(14, 440px);
+        margin-bottom: -20em;    
+    } 
+    .border-tovar, .border-tovar1, .border-tovar2, .border-tovar3, .border-tovar4, .border-tovar5, .border-tovar6, .border-tovar7, .border-tovar8, .border-tovar9, .border-tovar10, .border-tovar11, .border-tovar12, .border-tovar13, .border-tovar14, .border-tovar15, .border-tovar16 {
+        transform: scale(0.88);
+        
+    }  
+}
+@media(max-width:390px){
+    .Grid{
+        grid-template-columns: repeat(1, 1fr);
+        margin-left: 2em;
+        margin-top: -15em; 
+        grid-template-rows: repeat(14, 440px);
+        margin-bottom: -20em;    
+    } 
+    .border-tovar, .border-tovar1, .border-tovar2, .border-tovar3, .border-tovar4, .border-tovar5, .border-tovar6, .border-tovar7, .border-tovar8, .border-tovar9, .border-tovar10, .border-tovar11, .border-tovar12, .border-tovar13, .border-tovar14, .border-tovar15, .border-tovar16 {
+        transform: scale(0.88);
+        
+    }  
+}
+@media(max-width:334px){
+    .Grid{
+        grid-template-columns: repeat(1, 1fr);
+        margin-left: -1em;
+        margin-top: -15em; 
+        grid-template-rows: repeat(14, 380px);
+        margin-bottom: -20em;    
+    } 
+    .border-tovar, .border-tovar1, .border-tovar2, .border-tovar3, .border-tovar4, .border-tovar5, .border-tovar6, .border-tovar7, .border-tovar8, .border-tovar9, .border-tovar10, .border-tovar11, .border-tovar12, .border-tovar13, .border-tovar14, .border-tovar15, .border-tovar16 {
+        transform: scale(0.7);
+        
+    }  
+}
