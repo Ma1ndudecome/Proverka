@@ -972,6 +972,54 @@ body, html {
  
       .border-tovar, .border-tovar1, .border-tovar2, .border-tovar3, .border-tovar4, .border-tovar5, .border-tovar6, .border-tovar7, .border-tovar8, .border-tovar9, .border-tovar10, .border-tovar11, .border-tovar12, .border-tovar13, .border-tovar14, .border-tovar15, .border-tovar16 {
         transform: scale(0.9);
+    }
+    .border-tovar{
+    animation-name: fortelef;
+    animation-duration: 1.5s;
+    animation-timing-function: ease;
+    animation-duration: alternate-reverse; 
+    }
+    .border-tovar1{
+        animation-name: fortelef;
+        animation-duration: 2s;
+        animation-timing-function: ease;
+        animation-duration: alternate-reverse; 
+    } 
+    .border-tovar2{
+        animation-name: fortelef;
+        animation-duration: 2.5s;
+        animation-timing-function: ease;
+        animation-duration: alternate-reverse; 
+    } 
+    .border-tovar3{
+        animation-name: fortelef;
+        animation-duration: 2.8s;
+        animation-timing-function: ease;
+        animation-duration: alternate-reverse; 
+    } 
+    .border-tovar4{
+        animation-name: fortelef;
+        animation-duration: 3s;
+        animation-timing-function: ease;
+        animation-duration: alternate-reverse; 
+    }
+    .border-tovar5{
+        animation-name: fortelef;
+        animation-duration: 3.3s;
+        animation-timing-function: ease;
+        animation-duration: alternate-reverse; 
+    } 
+    .border-tovar6{
+        animation-name: fortelef;
+        animation-duration: 3.6s;
+        animation-timing-function: ease;
+        animation-duration: alternate-reverse; 
+    } 
+    .border-tovar8{
+        animation-name: fortelef;
+        animation-duration: 3.9s;
+        animation-timing-function: ease;
+        animation-duration: alternate-reverse; 
     } 
 
 }
@@ -985,7 +1033,56 @@ body, html {
     } 
     .border-tovar, .border-tovar1, .border-tovar2, .border-tovar3, .border-tovar4, .border-tovar5, .border-tovar6, .border-tovar7, .border-tovar8, .border-tovar9, .border-tovar10, .border-tovar11, .border-tovar12, .border-tovar13, .border-tovar14, .border-tovar15, .border-tovar16 {
         transform: scale(0.8);
-    }  
+        
+    } 
+    .border-tovar{
+        animation-name: fortelef1;
+        animation-duration: 1.5s;
+        animation-timing-function: ease;
+        animation-duration: alternate-reverse; 
+        }
+        .border-tovar1{
+            animation-name: fortelef1;
+            animation-duration: 2s;
+            animation-timing-function: ease;
+            animation-duration: alternate-reverse; 
+        } 
+        .border-tovar2{
+            animation-name: fortelef1;
+            animation-duration: 2.5s;
+            animation-timing-function: ease;
+            animation-duration: alternate-reverse; 
+        } 
+        .border-tovar3{
+            animation-name: fortelef1;
+            animation-duration: 2.8s;
+            animation-timing-function: ease;
+            animation-duration: alternate-reverse; 
+        } 
+        .border-tovar4{
+            animation-name: fortelef1;
+            animation-duration: 3s;
+            animation-timing-function: ease;
+            animation-duration: alternate-reverse; 
+        }
+        .border-tovar5{
+            animation-name: fortelef1;
+            animation-duration: 3.3s;
+            animation-timing-function: ease;
+            animation-duration: alternate-reverse; 
+        } 
+        .border-tovar6{
+            animation-name: fortelef1;
+            animation-duration: 3.6s;
+            animation-timing-function: ease;
+            animation-duration: alternate-reverse; 
+        } 
+        .border-tovar8{
+            animation-name: fortelef1;
+            animation-duration: 3.9s;
+            animation-timing-function: ease;
+            animation-duration: alternate-reverse; 
+        }  
 }
 @media (max-width:1280px){
     .Grid{
@@ -1001,6 +1098,54 @@ body, html {
     ::-webkit-scrollbar{
         width: 3px;
     }
+    .border-tovar{
+        animation-name: forAll;
+        animation-duration: 1.5s;
+        animation-timing-function: ease;
+        animation-duration: alternate-reverse; 
+        }
+        .border-tovar1{
+            animation-name: forAll;
+            animation-duration: 2s;
+            animation-timing-function: ease;
+            animation-duration: alternate-reverse; 
+        } 
+        .border-tovar2{
+            animation-name: forAll;
+            animation-duration: 2.5s;
+            animation-timing-function: ease;
+            animation-duration: alternate-reverse; 
+        } 
+        .border-tovar3{
+            animation-name: forAll;
+            animation-duration: 2.8s;
+            animation-timing-function: ease;
+            animation-duration: alternate-reverse; 
+        } 
+        .border-tovar4{
+            animation-name: forAll;
+            animation-duration: 3s;
+            animation-timing-function: ease;
+            animation-duration: alternate-reverse; 
+        }
+        .border-tovar5{
+            animation-name: forAll;
+            animation-duration: 3.3s;
+            animation-timing-function: ease;
+            animation-duration: alternate-reverse; 
+        } 
+        .border-tovar6{
+            animation-name: forAll;
+            animation-duration: 3.6s;
+            animation-timing-function: ease;
+            animation-duration: alternate-reverse; 
+        } 
+        .border-tovar8{
+            animation-name: forAll;
+            animation-duration: 3.9s;
+            animation-timing-function: ease;
+            animation-duration: alternate-reverse; 
+        }  
 }
 @media (max-width:1024px) {
     .Grid{

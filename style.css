@@ -451,6 +451,16 @@ background: #3a0ca3;
     left: -195px;
     box-shadow: -1px 1px 8px 7px #8CFF85;
 }
+@keyframes forAll{
+    0% {
+        opacity: 0;
+        transform: translateY(-140px);
+      }
+      100% {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
 .slots1{
     display: inline-block;
     position: relative;
@@ -926,6 +936,10 @@ background: #3a0ca3;
     display: inline-block; 
     top:150px;
     left:80px;
+    animation-name: forAll;
+    animation-duration: 3.9s;
+    animation-timing-function: ease;
+    animation-duration: alternate-reverse;
   }
   .ButtonAnar {
     text-decoration: none;
@@ -1125,7 +1139,11 @@ background: #3a0ca3;
 @keyframes Test1{
     0% {
         transform: translateY(-600px);
-    }   
+        opacity: 0;
+    } 
+    100%{
+        opacity: 1;
+    }  
 
 }
  @media (max-width:1820px){
