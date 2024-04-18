@@ -45,14 +45,8 @@
         console.error("Ошибка при получении информации о сервере:", error);
       });
   }
-
-
   const updateInterval = 5000;
-
- 
   updateServerStatus();
-
- 
   setInterval(updateServerStatus, updateInterval);
 </script>                
                         <h3 class="version">1.12.x-1.16.x</h3>   
@@ -74,25 +68,13 @@ Ip3.textContent = "mc.swayworld.ru";
 
 function copyText() {
             var textToCopy = "mc.swayworld.ru";
-
-            
             var tempTextarea = document.createElement("textarea");
             tempTextarea.value = textToCopy;
-
-           
             document.body.appendChild(tempTextarea);
-
-         
             tempTextarea.select();
             tempTextarea.setSelectionRange(0, 99999);
-
-       
             document.execCommand("copy");
-
-      
             document.body.removeChild(tempTextarea);
-
-           
             var copiedMessage = document.querySelector(".copied-message");
             if (copiedMessage) {
                 copiedMessage.style.display = "inline-block";

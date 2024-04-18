@@ -15,7 +15,7 @@
      <div class="Grid">
         <div class="border-tovar">
             <div class="button">
-                <button class="add-button" onclick="OpenBtn()">Купить</button>
+                <button class="add-button" id="add-button">Купить</button>
             </div>
             <div class="image-tovar">
                 <img class="image" src="Lite.png" alt="Lite">
@@ -30,7 +30,7 @@
             </div>
             <div class="border-tovar1">
                 <div class="button">
-                    <button class="add-button" onclick="OpenBtn1()">Купить</button>
+                    <button class="add-button" id="add-button1">Купить</button>
                 </div>
                 <div class="image-tovar">
                     <img class="image" src="Ricar.png" alt="Lite">
@@ -48,7 +48,7 @@
         
         <div class="border-tovar2">
             <div class="button">
-                <button class="add-button" onclick="OpenBtn2()">Купить</button>
+                <button class="add-button" id="add-button2">Купить</button>
             </div>
             <div class="image-tovar1">
                 <img class="image" src="Paladine.png" alt="Lite">
@@ -66,7 +66,7 @@
        
         <div class="border-tovar3">
             <div class="button">
-                <button class="add-button" onclick="OpenBtn3()">Купить</button>
+                <button class="add-button" id="add-button3">Купить</button>
             </div>
             <div class="image-tovar">
                 <img class="image" src="Dragonneback.png" alt="Lite">
@@ -84,7 +84,7 @@
        
         <div class="border-tovar4">
             <div class="button">
-                <button class="add-button" onclick="OpenBtn4()">Купить</button>
+                <button class="add-button" id="add-button4">Купить</button>
             </div>
             <div class="image-tovar4">
                 <img class="image" src="backlegend1.png" alt="Lite">
@@ -102,7 +102,7 @@
         
         <div class="border-tovar5">
             <div class="button">
-                <button class="add-button" onclick="OpenBtn5()">Купить</button>
+                <button class="add-button" id="add-button5">Купить</button>
             </div>
             <div class="image-tovar">
                 <img class="image" src="Imperator.png" alt="Lite">
@@ -120,7 +120,7 @@
       
         <div class="border-tovar6">
             <div class="button">
-                <button class="add-button" onclick="OpenBtn6()">Купить</button>
+                <button class="add-button" id="add-button6">Купить</button>
             </div>
             <div class="image-tovar7">
                 <img class="image" src="Rolecks.png" alt="Lite">
@@ -139,7 +139,7 @@
             
         <div class="border-tovar8">
             <div class="button">
-                <button class="add-button" onclick="OpenBtn8()">Купить</button>
+                <button class="add-button" id="add-button8">Купить</button>
             </div>
             <div class="image-tovar">
                 <img class="image" src="Toiner.png" alt="Lite">
@@ -157,7 +157,7 @@
             
         <div class="border-tovar9">
             <div class="button">
-                <button class="add-button" onclick="OpenBtn9()">Купить</button>
+                <button class="add-button">Купить</button>
             </div>
             <div class="image-tovar">
                 <img class="image" src="redkey1.png" alt="Lite">
@@ -175,7 +175,7 @@
        
         <div class="border-tovar10">
             <div class="button">
-                <button class="add-button" onclick="OpenBtn10()">Купить</button>
+                <button class="add-button" >Купить</button>
             </div>
             <div class="image-tovar10">
                 <img class="image" src="greenkey2.png" alt="Lite" >
@@ -192,7 +192,7 @@
             
         <div class="border-tovar11">
             <div class="button">
-                <button class="add-button" onclick="OpenBtn11()">Купить</button>
+                <button class="add-button" >Купить</button>
             </div>
             <div class="image-tovar">
                 <img class="image" src="key3.png" alt="Lite" width="250px" height="200px">
@@ -209,7 +209,7 @@
            
         <div class="border-tovar12">
             <div class="button">
-                <button class="add-button" onclick="OpenBtn12()">Купить</button>
+                <button class="add-button">Купить</button>
             </div>
             <div class="image-tovar">
                
@@ -225,7 +225,7 @@
             </div>
             <div class="border-tovar15">
                 <div class="button">
-                    <button class="add-button" onclick="OpenBtn15()">Купить</button>
+                    <button class="add-button">Купить</button>
                 </div>
                 <div class="image-tovar">
                     
@@ -241,7 +241,7 @@
                 </div>
                 <div class="border-tovar16">
                     <div class="button">
-                        <button class="add-button" onclick="OpenBtn16()">Купить</button>
+                        <button class="add-button" >Купить</button>
                     </div>
                     <div class="image-tovar">
                         
@@ -259,7 +259,7 @@
       
         <div class="border-tovar13">
             <div class="button">
-                <button class="add-button" onclick="OpenBtn13()">Купить</button>
+                <button class="add-button" >Купить</button>
             </div>
             <div class="image-tovar">
                 <div class="All-privilegia">
@@ -276,7 +276,7 @@
       
                <div class="border-tovar14">
             <div class="button">
-                <button class="add-button" onclick="OpenBtn14()">Купить</button>
+                <button class="add-button">Купить</button>
             </div>
             <div class="image-tovar">
                
@@ -293,7 +293,7 @@
         </div>
         <div class="neakt14" id="neakt14">
             <div class="LineN14" id="LineN14">
-                <span class="close" onclick="closeModal14()">&times;</span>
+                <span class="close">&times;</span>
                 <h1>Оформление платежа</h1>
                 <div class="SamLite">
                     <img src="unmute.png">
@@ -325,6 +325,7 @@
                 </div>
                 <div class="form">
                     <h2>Для покупки товаров заполните форму</h2>
+                    <form id="myForm"> 
                     <input type="text" class="Nick" name="Nick" id="Nick14" autocomplete="off" placeholder="Ник на сервере">
                     <input type="text" class="Email" name="Email" id="Email14" autocomplete="off" placeholder="Ваш Email">
                     <input type="text" class="Promo" name="Promo" id="Promo14" autocomplete="off" placeholder="Промокод, если есть">
@@ -332,9 +333,11 @@
                         <input type="checkbox" class="checkbox" id="checkbox14">
                     </label>
                     <label for="checkbox14" class="textforcheck">Я принимаю условия <a href="https://legal.easyx.ru/general/rules" target="_blank">пользовательского соглашения</a> и <a href="https://legal.easyx.ru/general/rules" target="_blank">оказания услуг</a></label>
+                    <input type="submit" class="Buy1" id="Buy15" value="Купить">
+                </form>
                 </div>
                 <div id="errorMessage14">Пожалуйста, поставьте галочку перед тем, как купить!</div>
-                <button class="Buy14" id="Buy14">Купить</button>
+                
             </div>
         </div>
         <div class="neakt15" id="neakt15">
@@ -369,6 +372,7 @@
                 </div>
                 <div class="form">
                     <h2>Для покупки товаров заполните форму</h2>
+                    <form id="myForm"> 
                     <input type="text" class="Nick" name="Nick" id="Nick15" autocomplete="off" placeholder="Ник на сервере">
                     <input type="text" class="Email" name="Email" id="Email15" autocomplete="off" placeholder="Ваш Email">
                     <input type="text" class="Promo" name="Promo" id="Promo15" autocomplete="off" placeholder="Промокод, если есть">
@@ -376,9 +380,11 @@
                         <input type="checkbox" class="checkbox" id="checkbox15">
                     </label>
                     <label for="checkbox15" class="textforcheck">Я принимаю условия <a href="https://legal.easyx.ru/general/rules" target="_blank">пользовательского соглашения</a> и <a href="https://legal.easyx.ru/general/rules" target="_blank">оказания услуг</a></label>
+                    <input type="submit" class="Buy1" id="Buy15" value="Купить">
+                </form>
                 </div>
                 <div id="errorMessage15">Пожалуйста, поставьте галочку перед тем, как купить!</div>
-                <button class="Buy15" id="Buy15">Купить</button>
+                
             </div>
         </div>
         <div class="neakt16" id="neakt16">
@@ -413,6 +419,7 @@
                 </div>
                 <div class="form">
                     <h2>Для покупки товаров заполните форму</h2>
+                    <form id="myForm"> 
                     <input type="text" class="Nick" name="Nick" id="Nick16" autocomplete="off" placeholder="Ник на сервере">
                     <input type="text" class="Email" name="Email" id="Email16" autocomplete="off" placeholder="Ваш Email">
                     <input type="text" class="Promo" name="Promo" id="Promo16" autocomplete="off" placeholder="Промокод, если есть">
@@ -420,21 +427,24 @@
                         <input type="checkbox" class="checkbox" id="checkbox16">
                     </label>
                     <label for="checkbox16" class="textforcheck">Я принимаю условия <a href="https://legal.easyx.ru/general/rules" target="_blank">пользовательского соглашения</a> и <a href="https://legal.easyx.ru/general/rules" target="_blank">оказания услуг</a></label>
+                    <input type="submit" class="Buy1" id="Buy6" value="Купить">
+
+                </form>
                 </div>
                 <div id="errorMessage16">Пожалуйста, поставьте галочку перед тем, как купить!</div>
-                <button class="Buy16" id="Buy16">Купить</button>
+               
             </div>
         </div>
         <div class="neakt" id="neakt">
             <div class="LiteN" id="LiteN">
                 <span class="close" onclick="closeModal()">&times;</span>
                 <h1>Оформление платежа</h1>
-                <div class="SamLite">
+                <div class="SamLite" id="SamLite">
                     <img src="Lite.png">
                     <h2>ЭЛИТА</h2>
                     <h2>29.00₽</h2>
                 </div>
-                <div class="Vozmojnost">
+                <div class="Vozmojnost" id="Vozmojnost">
                     <h2>ЭЛИТА</h2>
                   
                     <h4 class="Can1">
@@ -453,7 +463,7 @@
                     ▪Префикс Элита в табе</h4>
                 </div>
                 <h4 class="Itog">ИТОГО:</h4>
-                <h4 class="Itogsum">29.00₽</h4>
+                <h4 class="Itogsum" id="Itogsum">29.00₽</h4>
                 <div class="warring">
                     <h4>Важно знать cохраните чек который будет у вас<br>
                         на почте в случаи утери аккаунта вы можете<br> доказать что он ваш.<a href="https://vk.com/swayworld">Вк</a></h4>
@@ -461,16 +471,23 @@
                 </div>
                 <div class="form">
                     <h2>Для покупки товаров заполните форму</h2>
-                    <input type="text" class="Nick" name="Nick" id="Nick" autocomplete="off" placeholder="Ник на сервере" required>
-                    <input type="text" class="Email" name="Email" id="Email" autocomplete="off" placeholder="Ваш Email" required>
-                    <input type="text" class="Promo" name="Promo" id="Promo" autocomplete="off" placeholder="Промокод, если есть">
-                    <label for="checkbox">
-                        <input type="checkbox" class="checkbox" id="checkbox">
-                    </label>
-                    <label for="checkbox" class="textforcheck">Я принимаю условия <a href="https://legal.easyx.ru/general/rules" target="_blank">пользовательского соглашения</a> и <a href="https://legal.easyx.ru/general/rules" target="_blank">оказания услуг</a></label>
+                    <form id="myForm"> 
+                        <input type="text" class="Nick" name="Nick" id="Nick" autocomplete="off" placeholder="Ник на сервере" >
+                        <input type="text" class="Email" name="Email" id="Email" autocomplete="off" placeholder="Ваш Email" >
+                        <input type="text" class="Promo" name="Promo" id="Promo" autocomplete="off" placeholder="Промокод, если есть">
+                        <label for="checkbox">
+                            <input type="checkbox" class="checkbox" id="checkbox" name="checkbox"> <!-- Добавлен атрибут name для галочки -->
+                        </label>
+                        <label for="checkbox" class="textforcheck" id="textforcheck">Я принимаю условия <a href="https://legal.easyx.ru/general/rules" target="_blank">пользовательского соглашения</a> и <a href="https://legal.easyx.ru/general/rules" target="_blank">оказания услуг</a></label>
+                        <input type="submit" class="Buy" id="Buy" value="Купить">
+
+                    </form>
+                    
                 </div>
                 <div id="errorMessage1">поставьте галочку и заполните поля</div>
-                <button class="Buy" id="Buy">Купить</button>
+              
+                
+                
             </div>
         </div>
         
@@ -504,7 +521,7 @@
                     ▪Префикс Ультра в табе</h4>
                 </div>
                 <h4 class="Itog">ИТОГО:</h4>
-                <h4 class="Itogsum">49.00₽</h4>
+                <h4 class="Itogsum" id="Itogsum1">49.00₽</h4>
                 <div class="warring">
                     <h4>Важно знать cохраните чек который будет у вас<br>
                         на почте в случаи утери аккаунта вы можете<br> доказать что он ваш.<a href="https://vk.com/swayworld">Вк</a></h4>
@@ -512,16 +529,21 @@
                 </div>
                 <div class="form">
                     <h2>Для покупки товаров заполните форму</h2>
-                    <input type="text" class="Nick" name="Nick" id="Nick1" autocomplete="off" placeholder="Ник на сервере" required>
-                    <input type="text" class="Email" name="Email" id="Email1" autocomplete="off" placeholder="Ваш Email" required>
+                    <form id="myForm"> 
+                    <input type="text" class="Nick" name="Nick" id="Nick1" autocomplete="off" placeholder="Ник на сервере">
+                    <input type="text" class="Email" name="Email" id="Email1" autocomplete="off" placeholder="Ваш Email">
                     <input type="text" class="Promo" name="Promo" id="Promo1" autocomplete="off" placeholder="Промокод, если есть">
                     <label for="checkbox1">
                         <input type="checkbox" class="checkbox" id="checkbox1">
                     </label>
                     <label for="checkbox1" class="textforcheck">Я принимаю условия <a href="https://legal.easyx.ru/general/rules" target="_blank">пользовательского соглашения</a> и <a href="https://legal.easyx.ru/general/rules" target="_blank">оказания услуг</a></label>
+                    <input type="submit" class="Buy1" id="Buy1" value="Купить">
+
+                </form>
                 </div>
+
                 <div id="errorMessage2">поставьте галочку и заполните поля </div>
-                <button class="Buy1" id="Buy1">Купить</button>
+                
             </div>
         </div>
 <div class="neakt2" id="neakt2">
@@ -555,7 +577,7 @@
                     </h4>
                 </div>
                 <h4 class="Itog">ИТОГО:</h4>
-                <h4 class="Itogsum">79.00₽</h4>
+                <h4 class="Itogsum" id="Itogsum2">79.00₽</h4>
                 <div class="warring">
                     <h4>Важно знать cохраните чек который будет у вас<br>
                         на почте в случаи утери аккаунта вы можете<br> доказать что он ваш.<a href="https://vk.com/swayworld">Вк</a></h4>
@@ -563,6 +585,7 @@
                 </div>
                 <div class="form">
                     <h2>Для покупки товаров заполните форму</h2>
+                    <form id="myForm"> 
                     <input type="text" class="Nick" name="Nick" id="Nick2" autocomplete="off" placeholder="Ник на сервере">
                     <input type="text" class="Email" name="Email" id="Email2" autocomplete="off" placeholder="Ваш Email">
                     <input type="text" class="Promo" name="Promo" id="Promo2" autocomplete="off" placeholder="Промокод, если есть">
@@ -570,9 +593,11 @@
                         <input type="checkbox" class="checkbox" id="checkbox2">
                     </label>
                     <label for="checkbox2" class="textforcheck">Я принимаю условия <a href="https://legal.easyx.ru/general/rules" target="_blank">пользовательского соглашения</a> и <a href="https://legal.easyx.ru/general/rules" target="_blank">оказания услуг</a></label>
+                    <input type="submit" class="Buy" id="Buy2" value="Купить">
+                </form>
                 </div>
                 <div id="errorMessage3">Пожалуйста, поставьте галочку перед тем, как купить!</div>
-                <button class="Buy2" id="Buy2">Купить</button>
+                
             </div>
         </div>
 <div class="neakt3" id="neakt3">
@@ -606,7 +631,7 @@
                     </h4>
                 </div>
                 <h4 class="Itog">ИТОГО:</h4>
-                <h4 class="Itogsum">149.00₽</h4>
+                <h4 class="Itogsum" id="Itogsum4">149.00₽</h4>
                 <div class="warring">
                     <h4>Важно знать, сохраните чек, который будет у вас<br>
                         на почте. В случае утери аккаунта, вы сможете<br> доказать, что он ваш.<a href="https://vk.com/swayworld">Вк</a></h4>
@@ -614,6 +639,7 @@
                 </div>
                 <div class="form">
                     <h2>Для покупки товаров заполните форму</h2>
+                    <form id="myForm"> 
                     <input type="text" class="Nick" name="Nick" id="Nick3" autocomplete="off" placeholder="Ник на сервере">
                     <input type="text" class="Email" name="Email" id="Email3" autocomplete="off" placeholder="Ваш Email">
                     <input type="text" class="Promo" name="Promo" id="Promo3" autocomplete="off" placeholder="Промокод, если есть">
@@ -621,9 +647,13 @@
                         <input type="checkbox" class="checkbox" id="checkbox3">
                     </label>
                     <label for="checkbox3" class="textforcheck">Я принимаю условия <a href="https://legal.easyx.ru/general/rules" target="_blank">пользовательского соглашения</a> и <a href="https://legal.easyx.ru/general/rules" target="_blank">оказания услуг</a></label>
+                    <input type="submit" class="Buy" id="Buy3" value="Купить">
+                    
+                </form>
+                
                 </div>
                 <div id="errorMessage4">Пожалуйста, поставьте галочку перед тем, как купить!</div>
-                <button class="Buy3" id="Buy3">Купить</button>
+                
             </div>
         </div>
 <div class="neakt4" id="neakt4">
@@ -659,7 +689,7 @@
                     </h4>
                 </div>
                 <h4 class="Itog">ИТОГО:</h4>
-                <h4 class="Itogsum">229.00₽</h4>
+                <h4 class="Itogsum" id="Itogsum5">229.00₽</h4>
                 <div class="warring">
                     <h4>Важно знать, сохраните чек, который будет у вас<br>
                         на почте. В случае утери аккаунта, вы сможете<br> доказать, что он ваш.<a href="https://vk.com/swayworld">Вк</a></h4>
@@ -667,6 +697,7 @@
                 </div>
                 <div class="form">
                     <h2>Для покупки товаров заполните форму</h2>
+                    <form id="myForm"> 
                     <input type="text" class="Nick" name="Nick" id="Nick4" autocomplete="off" placeholder="Ник на сервере">
                     <input type="text" class="Email" name="Email" id="Email4" autocomplete="off" placeholder="Ваш Email">
                     <input type="text" class="Promo" name="Promo" id="Promo4" autocomplete="off" placeholder="Промокод, если есть">
@@ -674,9 +705,11 @@
                         <input type="checkbox" class="checkbox" id="checkbox4">
                     </label>
                     <label for="checkbox4" class="textforcheck">Я принимаю условия <a href="https://legal.easyx.ru/general/rules" target="_blank">пользовательского соглашения</a> и <a href="https://legal.easyx.ru/general/rules" target="_blank">оказания услуг</a></label>
+                    <input type="submit" class="Buy" id="Buy4" value="Купить">
+                    </form>
                 </div>
                 <div id="errorMessage5">Пожалуйста, поставьте галочку перед тем, как купить!</div>
-                <button class="Buy4" id="Buy4">Купить</button>
+                
             </div>
         </div>
 <div class="neakt5" id="neakt5">
@@ -712,7 +745,7 @@
                     </h4>
                 </div>
                 <h4 class="Itog">ИТОГО:</h4>
-                <h4 class="Itogsum">439.00₽</h4>
+                <h4 class="Itogsum" id="Itogsum6">439.00₽</h4>
                 <div class="warring">
                     <h4>Важно знать, сохраните чек, который будет у вас<br>
                         на почте. В случае утери аккаунта, вы сможете<br> доказать, что он ваш.<a href="https://vk.com/swayworld">Вк</a></h4>
@@ -720,6 +753,7 @@
                 </div>
                 <div class="form">
                     <h2>Для покупки товаров заполните форму</h2>
+                    <form id="myForm"> 
                     <input type="text" class="Nick" name="Nick" id="Nick5" autocomplete="off" placeholder="Ник на сервере">
                     <input type="text" class="Email" name="Email" id="Email5" autocomplete="off" placeholder="Ваш Email">
                     <input type="text" class="Promo" name="Promo" id="Promo5" autocomplete="off" placeholder="Промокод, если есть">
@@ -727,9 +761,11 @@
                         <input type="checkbox" class="checkbox" id="checkbox5">
                     </label>
                     <label for="checkbox5" class="textforcheck">Я принимаю условия <a href="https://legal.easyx.ru/general/rules" target="_blank">пользовательского соглашения</a> и <a href="https://legal.easyx.ru/general/rules" target="_blank">оказания услуг</a></label>
+                    <input type="submit" class="Buy" id="Buy5" value="Купить">
+                </form>
                 </div>
                 <div id="errorMessage6">Пожалуйста, поставьте галочку перед тем, как купить!</div>
-                <button class="Buy5" id="Buy5">Купить</button>
+               
             </div>
         </div>
 <div class="neakt6" id="neakt6">
@@ -768,7 +804,7 @@
                     </h4>
                 </div>
                 <h4 class="Itog">ИТОГО:</h4>
-                <h4 class="Itogsum">799.00₽</h4>
+                <h4 class="Itogsum" id="Itogsum7">799.00₽</h4>
                 <div class="warring">
                     <h4>Важно знать, сохраните чек, который будет у вас<br>
                         на почте. В случае утери аккаунта, вы сможете<br> доказать, что он ваш.<a href="https://vk.com/swayworld">Вк</a></h4>
@@ -776,16 +812,19 @@
                 </div>
                 <div class="form">
                     <h2>Для покупки товаров заполните форму</h2>
+                    <form id="myForm"> 
                     <input type="text" class="Nick" name="Nick" id="Nick6" autocomplete="off" placeholder="Ник на сервере">
                     <input type="text" class="Email" name="Email" id="Email6" autocomplete="off" placeholder="Ваш Email">
                     <input type="text" class="Promo" name="Promo" id="Promo6" autocomplete="off" placeholder="Промокод, если есть">
-                    <label for="checkbox6">
+                    <label for="checkbox8">
                         <input type="checkbox" class="checkbox" id="checkbox6">
                     </label>
-                    <label for="checkbox6" class="textforcheck">Я принимаю условия <a href="https://legal.easyx.ru/general/rules" target="_blank">пользовательского соглашения</a> и <a href="https://legal.easyx.ru/general/rules" target="_blank">оказания услуг</a></label>
+                    <label for="checkbox8" class="textforcheck">Я принимаю условия <a href="https://legal.easyx.ru/general/rules" target="_blank">пользовательского соглашения</a> и <a href="https://legal.easyx.ru/general/rules" target="_blank">оказания услуг</a></label>
+                    <input type="submit" class="Buy" id="Buy7" value="Купить">
+                </form>
                 </div>
                 <div id="errorMessage7">Пожалуйста, поставьте галочку перед тем, как купить!</div>
-                <button class="Buy6" id="Buy6">Купить</button>
+               
             </div>
         </div>
 <div class="neakt8" id="neakt8">
@@ -826,7 +865,7 @@
                     </h4>
                 </div>
                 <h4 class="Itog">ИТОГО:</h4>
-                <h4 class="Itogsum">2999.00₽</h4>
+                <h4 class="Itogsum" id="Itogsum8">2999.00₽</h4>
                 <div class="warring">
                     <h4>Важно знать, сохраните чек, который будет у вас<br>
                         на почте. В случае утери аккаунта, вы сможете<br> доказать, что он ваш.<a href="https://vk.com/swayworld">Вк</a></h4>
@@ -834,6 +873,7 @@
                 </div>
                 <div class="form">
                     <h2>Для покупки товаров заполните форму</h2>
+                    <form id="myForm"> 
                     <input type="text" class="Nick" name="Nick" id="Nick8" autocomplete="off" placeholder="Ник на сервере">
                     <input type="text" class="Email" name="Email" id="Email8" autocomplete="off" placeholder="Ваш Email">
                     <input type="text" class="Promo" name="Promo" id="Promo8" autocomplete="off" placeholder="Промокод, если есть">
@@ -841,9 +881,11 @@
                         <input type="checkbox" class="checkbox" id="checkbox8">
                     </label>
                     <label for="checkbox8" class="textforcheck">Я принимаю условия <a href="https://legal.easyx.ru/general/rules" target="_blank">пользовательского соглашения</a> и <a href="https://legal.easyx.ru/general/rules" target="_blank">оказания услуг</a></label>
+                    <input type="submit" class="Buy" id="Buy8" value="Купить">
+                </form>
                 </div>
                 <div id="errorMessage9">Пожалуйста, поставьте галочку перед тем, как купить!</div>
-                <button class="Buy8" id="Buy8">Купить</button>
+               
             </div>
         </div>
 <div class="neakt9" id="neakt9">
@@ -868,16 +910,10 @@
                             это не только<br> способ поддержать сервер, но и возможность <br>
                             обогатить ваш опыт игры,<br> делая ваше приключение в <br>
                             Майнкрафт еще более захватывающим и уникальным."<br>
-
-
-
-
-
-
                     </h4>
                 </div>
                 <h4 class="Itog">ИТОГО:</h4>
-                <h4 class="Itogsum">119.00₽</h4>
+                <h4 class="Itogsum" id="Itogsum9">119.00₽</h4>
                 <div class="warring">
                     <h4>Важно знать, сохраните чек, который будет у вас<br>
                         на почте. В случае утери аккаунта, вы сможете<br> доказать, что он ваш.<a href="https://vk.com/swayworld">Вк</a></h4>
@@ -885,6 +921,7 @@
                 </div>
                 <div class="form">
                     <h2>Для покупки товаров заполните форму</h2>
+                    <form id="myForm"> 
                     <input type="text" class="Nick" name="Nick" id="Nick9" autocomplete="off" placeholder="Ник на сервере">
                     <input type="text" class="Email" name="Email" id="Email9" autocomplete="off" placeholder="Ваш Email">
                     <input type="text" class="Promo" name="Promo" id="Promo9" autocomplete="off" placeholder="Промокод, если есть">
@@ -892,9 +929,11 @@
                         <input type="checkbox" class="checkbox" id="checkbox9">
                     </label>
                     <label for="checkbox9" class="textforcheck">Я принимаю условия <a href="https://legal.easyx.ru/general/rules" target="_blank">пользовательского соглашения</a> и <a href="https://legal.easyx.ru/general/rules" target="_blank">оказания услуг</a></label>
+                    <input type="submit" class="Buy9" id="Buy9" value="Купить">
+                </form>
                 </div>
                 <div id="errorMessage10">Пожалуйста, поставьте галочку перед тем, как купить!</div>
-                <button class="Buy9" id="Buy9">Купить</button>
+                
             </div>
         </div>
 <div class="neakt10" id="neakt10">
@@ -929,7 +968,7 @@
                     
                 </div>
                 <h4 class="Itog">ИТОГО:</h4>
-                <h4 class="Itogsum">79.00₽</h4>
+                <h4 class="Itogsum" id="Itogsum10">79.00₽</h4>
                 <div class="warring">
                     <h4>Важно знать, сохраните чек, который будет у вас<br>
                         на почте. В случае утери аккаунта, вы сможете<br> доказать, что он ваш.<a href="https://vk.com/swayworld">Вк</a></h4>
@@ -937,6 +976,7 @@
                 </div>
                 <div class="form">
                     <h2>Для покупки товаров заполните форму</h2>
+                    <form id="myForm"> 
                     <input type="text" class="Nick" name="Nick" id="Nick10" autocomplete="off" placeholder="Ник на сервере">
                     <input type="text" class="Email" name="Email" id="Email10" autocomplete="off" placeholder="Ваш Email">
                     <input type="text" class="Promo" name="Promo" id="Promo10" autocomplete="off" placeholder="Промокод, если есть">
@@ -944,9 +984,11 @@
                         <input type="checkbox" class="checkbox" id="checkbox10">
                     </label>
                     <label for="checkbox10" class="textforcheck">Я принимаю условия <a href="https://legal.easyx.ru/general/rules" target="_blank">пользовательского соглашения</a> и <a href="https://legal.easyx.ru/general/rules" target="_blank">оказания услуг</a></label>
+                    <input type="submit" class="Buy10" id="Buy10" value="Купить">
+                </form>
                 </div>
                 <div id="errorMessage11">Пожалуйста, поставьте галочку перед тем, как купить!</div>
-                <button class="Buy10" id="Buy10">Купить</button>
+               
             </div>
         </div>
 <div class="neakt11" id="neakt11">
@@ -978,7 +1020,7 @@
                     
                 </div>
                 <h4 class="Itog">ИТОГО:</h4>
-                <h4 class="Itogsum">79.00₽</h4>
+                <h4 class="Itogsum" id="Itogsum11">79.00₽</h4>
                 <div class="warring">
                     <h4>Важно знать, сохраните чек, который будет у вас<br>
                         на почте. В случае утери аккаунта, вы сможете<br> доказать, что он ваш.<a href="https://vk.com/swayworld">Вк</a></h4>
@@ -986,6 +1028,7 @@
                 </div>
                 <div class="form">
                     <h2>Для покупки товаров заполните форму</h2>
+                    <form id="myForm"> 
                     <input type="text" class="Nick" name="Nick" id="Nick11" autocomplete="off" placeholder="Ник на сервере">
                     <input type="text" class="Email" name="Email" id="Email11" autocomplete="off" placeholder="Ваш Email">
                     <input type="text" class="Promo" name="Promo" id="Promo11" autocomplete="off" placeholder="Промокод, если есть">
@@ -993,6 +1036,8 @@
                         <input type="checkbox" class="checkbox" id="checkbox11">
                     </label>
                     <label for="checkbox11" class="textforcheck">Я принимаю условия <a href="https://legal.easyx.ru/general/rules" target="_blank">пользовательского соглашения</a> и <a href="https://legal.easyx.ru/general/rules" target="_blank">оказания услуг</a></label>
+                    <input type="submit" class="Buy11" id="Buy11" value="Купить">
+                </form>
                 </div>
                 <div id="errorMessage12">Пожалуйста, поставьте галочку перед тем, как купить!</div>
                 <button class="Buy11" id="Buy11">Купить</button>
@@ -1023,7 +1068,7 @@
                     
                 </div>
                 <h4 class="Itog">ИТОГО:</h4>
-                <h4 class="Itogsum">79.00₽</h4>
+                <h4 class="Itogsum" id="Itogsum12">79.00₽</h4>
                 <div class="warring">
                     <h4>Важно знать, сохраните чек, который будет у вас<br>
                         на почте. В случае утери аккаунта, вы сможете<br> доказать, что он ваш.<a href="https://vk.com/swayworld">Вк</a></h4>
@@ -1031,6 +1076,7 @@
                 </div>
                 <div class="form">
                     <h2>Для покупки товаров заполните форму</h2>
+                    <form id="myForm"> 
                     <input type="text" class="Nick" name="Nick" id="Nick12" autocomplete="off" placeholder="Ник на сервере">
                     <input type="text" class="Email" name="Email" id="Email12" autocomplete="off" placeholder="Ваш Email">
                     <input type="text" class="Promo" name="Promo" id="Promo12" autocomplete="off" placeholder="Промокод, если есть">
@@ -1038,6 +1084,8 @@
                         <input type="checkbox" class="checkbox" id="checkbox12">
                     </label>
                     <label for="checkbox12" class="textforcheck">Я принимаю условия <a href="https://legal.easyx.ru/general/rules" target="_blank">пользовательского соглашения</a> и <a href="https://legal.easyx.ru/general/rules" target="_blank">оказания услуг</a></label>
+                    <input type="submit" class="Buy" id="Buy12" value="Купить">
+                </form>
                 </div>
                 <div id="errorMessage12">Пожалуйста, поставьте галочку перед тем, как купить!</div>
                 <button class="Buy12" id="Buy12">Купить</button>
@@ -1067,7 +1115,7 @@
                     
                 </div>
                 <h4 class="Itog">ИТОГО:</h4>
-                <h4 class="Itogsum">149.00₽</h4>
+                <h4 class="Itogsum" id="Itogsum13">149.00₽</h4>
                 <div class="warring">
                     <h4>Важно знать, сохраните чек, который будет у вас<br>
                         на почте. В случае утери аккаунта, вы сможете<br> доказать, что он ваш.<a href="https://vk.com/swayworld">Вк</a></h4>
@@ -1075,6 +1123,7 @@
                 </div>
                 <div class="form">
                     <h2>Для покупки товаров заполните форму</h2>
+                    <form id="myForm"> 
                     <input type="text" class="Nick" name="Nick" id="Nick13" autocomplete="off" placeholder="Ник на сервере">
                     <input type="text" class="Email" name="Email" id="Email13" autocomplete="off" placeholder="Ваш Email">
                     <input type="text" class="Promo" name="Promo" id="Promo13" autocomplete="off" placeholder="Промокод, если есть">
@@ -1082,9 +1131,10 @@
                         <input type="checkbox" class="checkbox" id="checkbox13">
                     </label>
                     <label for="checkbox13" class="textforcheck">Я принимаю условия <a href="https://legal.easyx.ru/general/rules" target="_blank">пользовательского соглашения</a> и <a href="https://legal.easyx.ru/general/rules" target="_blank">оказания услуг</a></label>
+                    <input type="submit" class="Buy" id="Buy13" value="Купить">
+                </form>
                 </div>
-                <div id="errorMessage13">Пожалуйста, поставьте галочку перед тем, как купить!</div>
-                <button class="Buy13" id="Buy13">Купить</button>
+                <div id="errorMessage13">Пожалуйста, поставьте галочку перед тем, как купить!</div>      
             </div>
         </div>
                                   
